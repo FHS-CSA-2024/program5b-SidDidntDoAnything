@@ -22,7 +22,7 @@ public class Car {
         return gallonsUsed;
       }
       public double calculateAverage() {
-        double avg = Math.round(((double)milesDriven/gallonsUsed) * 10) / 10;
+        double avg = Math.round((milesDriven/gallonsUsed) * 10) / 10.0;
         return avg;
         
       }

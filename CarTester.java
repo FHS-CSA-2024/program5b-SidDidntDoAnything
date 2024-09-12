@@ -4,3 +4,6 @@ public CarTester {
     
     
     Car car = new Car();
+  }
+  public void AddCar(){
+    

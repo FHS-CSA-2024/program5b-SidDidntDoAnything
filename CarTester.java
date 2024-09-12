@@ -2,7 +2,7 @@ public CarTester {
   public static void main(String[] args) {
     CarTester test = new CarTester();
     test.AddCar();
-    car.calculateAvg();
+    car.calculateAverage();
     car.toString();
     
     

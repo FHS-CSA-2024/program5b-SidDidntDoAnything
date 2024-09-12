@@ -1,14 +1,15 @@
 public CarTester {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    CarTester test = new CarTester();
+    test.AddCar();
+    car.toString();
     
     
-    Car car = new Car();
+   
   }
  
   public Car AddCar() {
     Scanner sc = new Scanner(System.in);
-    
     System.out.println("Please enter the car's name: ");
     String name = sc.nextString();
     System.out.println("\nPlease enter cars miles: ");
